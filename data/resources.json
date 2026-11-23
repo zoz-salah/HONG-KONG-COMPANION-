@@ -1,0 +1,39 @@
+[
+  {
+    "id": "emergency",
+    "ar": "الشرطة والإسعاف والمطافي",
+    "en": "Police, ambulance and fire",
+    "phone": "999",
+    "address": "",
+    "url": "https://www.hkengage.gov.hk/en/essentials/basics/emergency-ambulance-services/",
+    "verified": "2026-11-22"
+  },
+  {
+    "id": "hospital",
+    "ar": "مستشفى برنس أوف ويلز",
+    "en": "Prince of Wales Hospital",
+    "phone": "+85235052211",
+    "address": "30–32 Ngan Shing Street, Shatin, New Territories",
+    "url": "https://www3.ha.org.hk/pwh/content/contactus/contact_e.asp",
+    "verified": "2026-11-22"
+  },
+  {
+    "id": "queen-mary",
+    "ar": "مستشفى كوين ماري",
+    "en": "Queen Mary Hospital",
+    "phone": "+85222553838",
+    "address": "102 Pok Fu Lam Road, Hong Kong",
+    "url": "https://www8.ha.org.hk/qmh/enquiry/enquiry.aspx",
+    "verified": "2026-11-22"
+  },
+  {
+    "id": "consulate",
+    "ar": "القنصلية المصرية في هونج كونج",
+    "en": "Consulate General of Egypt in Hong Kong",
+    "phone": "+85228270668",
+    "address": "2201 Sino Plaza, 255 Gloucester Road, Hong Kong",
+    "url": "https://cs.mfa.gov.eg/en/HON/home",
+    "verified": "2026-11-22",
+    "phoneSource": "https://www.protocol.gov.hk/json/1.json"
+  }
+]

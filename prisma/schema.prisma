@@ -1,0 +1,70 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "sqlite"
+  url = env("DATABASE_URL")
+}
+model User {
+  id String @id @default(cuid())
+  email String @unique
+  password String
+  sessions Session[]
+  records Record[]
+  documents Document[]
+  links Share[]
+  subscriptions Subscription[]
+}
+model Session {
+  token String @id
+  userId String
+  expires DateTime
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+model Record {
+  id String @id @default(cuid())
+  userId String
+  kind String
+  data Json
+  due DateTime?
+  deliveredAt DateTime?
+  claimedUntil DateTime?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId,kind])
+  @@index([kind,due])
+}
+model Document {
+  id String @id @default(cuid())
+  userId String
+  name String
+  mime String
+  original Bytes
+  created DateTime @default(now())
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  chunks Chunk[]
+  @@index([userId])
+}
+model Chunk {
+  id String @id @default(cuid())
+  docId String
+  section String
+  text String
+  vector Json
+  doc Document @relation(fields: [docId], references: [id], onDelete: Cascade)
+}
+model Share {
+  token String @id
+  userId String
+  selection Json
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+model Subscription {
+  endpoint String @id
+  userId String
+  data Json
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+model Setting {
+  key String @id
+  value Json
+}

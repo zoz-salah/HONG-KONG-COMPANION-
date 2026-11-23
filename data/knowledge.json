@@ -1,0 +1,16 @@
+[
+  {
+    "id": "eduhk",
+    "ar": "راجع صفحة EdUHK الرسمية عشان تتأكد من تفاصيل البرنامج ومواعيد التسجيل.",
+    "en": "Check the official EdUHK website for programme details and registration dates.",
+    "url": "https://www.eduhk.hk/",
+    "verified": null
+  },
+  {
+    "id": "mtr",
+    "ar": "مواعيد قطارات هونج كونج الحية متاحة للمحطات اللي خدمة MTR الرسمية بتغطيها.",
+    "en": "Live Hong Kong train times are available for stations covered by the official MTR feed.",
+    "url": "https://data.gov.hk/en-data/dataset/mtr-data2-nexttrain-data",
+    "verified": "2026-11-22"
+  }
+]

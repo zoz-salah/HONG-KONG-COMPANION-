@@ -1,0 +1,37 @@
+[
+  {
+    "group": "before",
+    "ar": "راجع الباسبور ومدة صلاحيته",
+    "en": "Check passport validity"
+  },
+  {
+    "group": "before",
+    "ar": "اتأكد من متطلبات التأشيرة من الجهة الرسمية",
+    "en": "Check visa requirements with the official authority"
+  },
+  {
+    "group": "before",
+    "ar": "راجع تغطية التأمين للسفر",
+    "en": "Check travel insurance coverage"
+  },
+  {
+    "group": "before",
+    "ar": "جهّز نسخ من الورق المهم والشنطة",
+    "en": "Pack and make copies of important documents"
+  },
+  {
+    "group": "arrival",
+    "ar": "شوف أنسب كارت مواصلات ليك",
+    "en": "Check transport card options"
+  },
+  {
+    "group": "arrival",
+    "ar": "شوف اختيارات الشريحة والإنترنت",
+    "en": "Check SIM and internet options"
+  },
+  {
+    "group": "arrival",
+    "ar": "راجع تعليمات التسجيل مع الجامعة",
+    "en": "Check registration instructions with the university"
+  }
+]

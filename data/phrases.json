@@ -1,0 +1,74 @@
+[
+  {
+    "id": "thanks",
+    "group": "other",
+    "zh": "唔該",
+    "pronunciation": "m4 goi1 · m̀ gōi",
+    "en": "Excuse me / thanks for a service",
+    "ar": "لو عايز تلفت نظر حد بأدب، أو تشكره على خدمة",
+    "status": "unverified"
+  },
+  {
+    "id": "menu",
+    "group": "food",
+    "zh": "可唔可以睇吓餐牌？",
+    "pronunciation": "ho2 m4 ho2 ji5 tai2 haa5 caan1 paai2",
+    "en": "May I see the menu?",
+    "ar": "ممكن أشوف المنيو؟",
+    "status": "unverified"
+  },
+  {
+    "id": "bill",
+    "group": "food",
+    "zh": "唔該，埋單。",
+    "pronunciation": "m4 goi1, maai4 daan1",
+    "en": "The bill, please.",
+    "ar": "الحساب لو سمحت.",
+    "status": "unverified"
+  },
+  {
+    "id": "station",
+    "group": "transport",
+    "zh": "港鐵站喺邊度？",
+    "pronunciation": "gong2 tit3 zaam6 hai2 bin1 dou6",
+    "en": "Where is the MTR station?",
+    "ar": "محطة المترو فين؟",
+    "status": "unverified"
+  },
+  {
+    "id": "stop",
+    "group": "transport",
+    "zh": "唔該喺呢度落車。",
+    "pronunciation": "m4 goi1 hai2 ni1 dou6 lok6 ce1",
+    "en": "Please let me off here.",
+    "ar": "ممكن أنزل هنا لو سمحت؟",
+    "status": "unverified"
+  },
+  {
+    "id": "price",
+    "group": "shopping",
+    "zh": "呢個幾多錢？",
+    "pronunciation": "ni1 go3 gei2 do1 cin2",
+    "en": "How much is this?",
+    "ar": "ده بكام؟",
+    "status": "unverified"
+  },
+  {
+    "id": "help",
+    "group": "emergency",
+    "zh": "救命！",
+    "pronunciation": "gau3 meng6",
+    "en": "Help!",
+    "ar": "الحقوني!",
+    "status": "unverified"
+  },
+  {
+    "id": "doctor",
+    "group": "emergency",
+    "zh": "我需要睇醫生。",
+    "pronunciation": "ngo5 seoi1 jiu3 tai2 ji1 sang1",
+    "en": "I need to see a doctor.",
+    "ar": "أنا محتاج أكشف عند دكتور.",
+    "status": "unverified"
+  }
+]
